@@ -1,0 +1,48 @@
+*{
+    background-color: rgb(93, 168, 198);
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 75px;
+    border: solid white;
+  }
+ 
+h1 {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+p {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.profilePhoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: solid white;
+    height: 400px;
+    width: auto;
+  }
+
+.aboutPar {
+    width: 60rem;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 250px;
+    margin-top: 30px;
+}
