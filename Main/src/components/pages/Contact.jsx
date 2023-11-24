@@ -1,9 +1,20 @@
 export default function Contact() {
   return (
-    <div>
+    <div className="projectPage">
       <h1>Contact Page</h1>
-      <p> LinkedIn: www.linkedin.com/in/dariapressley </p>
-      <p> Github: https://github.com/dariapressley </p>
+      <div className="links">
+      <p>
+        <a href="https://linkedin.com/in/dariapressley" target="_blank">
+          LinkedIn
+        </a>
+      </p>
+      <p>
+        <a href="https://github.com/dariapressley" target="_blank">
+          Github
+        </a>
+      </p>
+    </div>
+
     </div>
   );
 }

@@ -46,3 +46,20 @@ p {
     margin-left: 250px;
     margin-top: 30px;
 }
+
+.links {
+    font-size: larger;
+    margin-top: 100px;
+}
+
+.projectPhoto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        border-radius: 20px;
+        border: solid white;
+        width:40rem;
+        height: auto;
+}
+
