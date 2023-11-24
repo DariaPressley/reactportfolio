@@ -64,7 +64,7 @@ https://github.com/DariaPressley/reactportfolio
 
 ## Netlify Link
 
-
+https://reactportfolioproject1234.netlify.app/
 
 ## Credits
 
