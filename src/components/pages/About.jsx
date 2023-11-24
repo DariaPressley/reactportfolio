@@ -1,5 +1,4 @@
 import './Portfolio.css'; 
-import headshot from '../images/headshot.jpg';
 
 export default function About() {
   return (
@@ -11,7 +10,7 @@ export default function About() {
       </p>
     </div>
     <div>
-      <img className="profilePhoto" src={headshot} alt={"Daria Pressley"}/>
+    <img className="profilePhoto" src={'/images/Headshot.jpg'} alt={"Daria Pressley"}/>
       </div>
     </div>
   );

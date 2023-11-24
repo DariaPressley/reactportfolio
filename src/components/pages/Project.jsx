@@ -1,7 +1,4 @@
 import React from 'react';
-import codemingle from '../images/codemingle.jpg';
-import earworm from '../images/earworm.jpg';
-import giftgenius from '../images/giftgenius.jpg';
 
 
 export default function Project() {
@@ -16,19 +13,19 @@ export default function Project() {
           GiftGenius!
         </a>
       </p>
-      <img className="projectPhoto" src={giftgenius} alt={"GiftGenius Photo"}/>
+      <img className="projectPhoto" src={'/images/giftgenius.jpg'} alt={"GiftGenius"}/>
       <p>
         <a href="https://dariapressley.github.io/project-earworm/" target="_blank">
           Project Earworm
         </a>
       </p>
-      <img className="projectPhoto" src={earworm} alt={"Earworm Photo"}/>
+      <img className="projectPhoto" src={'/images/earworm.jpg'} alt={"Earworm"}/>
       <p>
         <a href="https://murmuring-taiga-79602-011f1c7742f6.herokuapp.com" target="_blank">
           CodeMingle
         </a>
       </p>
-      <img className="projectPhoto" src={codemingle} alt={"Codemingle Photo"}/>
+      <img className="projectPhoto" src={'/images/codemingle.jpg'} alt={"CodeMingle"}/>
     </div>
 
 

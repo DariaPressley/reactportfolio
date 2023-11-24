@@ -1,5 +1,5 @@
 import './Portfolio.css'; 
-import photo from '../images/dolphin.jpeg';
+// import photo from '../images/dolphin.jpeg';
 import React from 'react';
 // import Image from 'react-image-resizer';
 
@@ -15,7 +15,7 @@ export default function Home() {
         </p>
       </div>
       <div>
-      <img className="photo" src={photo} alt={"Dolphin Photo"}/>
+      <img className="photo" src={'/images/dolphin.jpeg'} alt={"Dolphin"}/>
       </div>
 
     </div>
